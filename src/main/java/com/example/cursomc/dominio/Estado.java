@@ -8,6 +8,7 @@ import java.util.Objects;
 
 @Entity
 public class Estado implements Serializable {
+    private static final long seriaVersionUID = 1L;
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

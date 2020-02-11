@@ -11,6 +11,7 @@ import java.util.Objects;
 
 @Entity
 public class Produto implements Serializable {
+    private static final long seriaVersionUID = 1L;
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
